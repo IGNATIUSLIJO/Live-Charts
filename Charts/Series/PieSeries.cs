@@ -61,7 +61,7 @@ namespace LiveCharts
             var pChart = Chart as PieChart;
             if (pChart == null) return;
             if (pChart.PieTotalSum <= 0) return;
-            var rotated = 0d;
+            var rotated = 90d;
 
             Chart.Measure(new Size(double.PositiveInfinity, double.PositiveInfinity));
 
